@@ -1,0 +1,25 @@
+# =============================================================================
+# openvpn-auto-installer .gitignore
+# =============================================================================
+
+# Script log files
+*.log
+openvpn-install.log
+
+# Generated client config files
+*.ovpn
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak

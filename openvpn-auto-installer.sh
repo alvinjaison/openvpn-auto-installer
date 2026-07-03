@@ -2653,9 +2653,9 @@ function installOpenVPN() {
 		elif [[ $OS == 'oracle' ]]; then
 			run_cmd_fatal "Installing OpenVPN" yum install -y openvpn iptables openssl ca-certificates curl tar bind-utils socat policycoreutils-python-utils
 		elif [[ $OS == 'amzn2023' ]]; then
-			run_cmd_fatal "Installing OpenVPN" dnf install -y openvpn iptables openssl ca-certificates curl tar bind-utils socat
+			run_cmd_fatal "Installing OpenVPN" dnf install -y --allowerasing openvpn iptables openssl ca-certificates curl tar bind-utils socat
 		elif [[ $OS == 'fedora' ]]; then
-			run_cmd_fatal "Installing OpenVPN" dnf install -y openvpn iptables openssl ca-certificates curl tar bind-utils socat policycoreutils-python-utils
+			run_cmd_fatal "Installing OpenVPN" dnf install -y --allowerasing openvpn iptables openssl ca-certificates curl tar bind-utils socat policycoreutils-python-utils
 		elif [[ $OS == 'opensuse' ]]; then
 			run_cmd_fatal "Installing OpenVPN" zypper install -y openvpn iptables openssl ca-certificates curl tar bind-utils socat
 		elif [[ $OS == 'arch' ]]; then

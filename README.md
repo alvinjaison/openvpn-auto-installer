@@ -36,7 +36,7 @@ A bash script to install, configure, and manage a secure OpenVPN server with a s
 
 ```bash
 # Download
-curl -O https://raw.githubusercontent.com/alvinjaison/openvpn-auto-installer/main/openvpn-auto-installer.sh
+curl -O https://raw.githubusercontent.com/alvinjaison/openvpn-auto-installer/master/openvpn-auto-installer.sh
 chmod +x openvpn-auto-installer.sh
 
 # Interactive install (guided wizard)
@@ -278,4 +278,4 @@ Use `--no-log` to disable file logging, or `--log <path>` to change the log loca
 
 ## License
 
-MIT — see [LICENSE](https://github.com/alvinjaison/openvpn-auto-installer/blob/main/LICENSE)
+MIT — see [LICENSE](https://github.com/alvinjaison/openvpn-auto-installer/blob/master/LICENSE)
